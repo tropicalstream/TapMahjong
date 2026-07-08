@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Back tile (offset, dim) -->
+    <path android:fillColor="#FF6E6752" android:pathData="M38,30 h30 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z" />
+    <path android:fillColor="#FFB7B29C" android:pathData="M35,27 h30 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Front tile (ivory) with a 3D edge -->
+    <path android:fillColor="#FF6E6752" android:pathData="M45,34 h30 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z" />
+    <path android:pathData="M42,31 h30 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="42" android:startY="31" android:endX="76" android:endY="81">
+                <item android:offset="0.0" android:color="#FFF4EFDC" />
+                <item android:offset="1.0" android:color="#FFE0D9C0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Red dragon "中"-style mark: a red frame with a bar -->
+    <path android:strokeColor="#FFE23B34" android:strokeWidth="4" android:fillColor="#00000000"
+        android:pathData="M50,40 h14 v32 h-14 z" />
+    <path android:fillColor="#FFE23B34" android:pathData="M45,54 h24 v6 h-24 z" />
+</vector>
